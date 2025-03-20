@@ -1,0 +1,15 @@
+ChatApp
+.............................................
+{message: "User logged in successfully",…}
+message
+: 
+"User logged in successfully"
+user
+: 
+{id: "67cf2b483468ca2ad59d2297", fullname: "Harsh Suryavanshi", email: "harsh@dev.com"}
+------------------------------------
+jwt	
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2NmMmI0ODM0NjhjYTJhZDU5ZDIyOTciLCJpYXQiOjE3NDE4OTIyMTgsImV4cCI6MTc0Mjc1NjIxOH0.PPY2plSQmdXGaL5g0HlPCvijtVeNcigk7O9Axnx5Ffk
+
+	localhost	/	Session	179	✓	✓	Strict			Medium	
