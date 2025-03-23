@@ -2,17 +2,18 @@
 @plugin "daisyui";
 
 .custom-scrollbar::-webkit-scrollbar {
-    width: 5px; 
-  }
+  width: 5px;
+}
 
-  .custom-scrollbar::-webkit-scrollbar-track {
-    @apply bg-transparent; 
-  }
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
 
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    @apply bg-white rounded-4xl; 
-  }
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 32px;
+}
 
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    @apply bg-[#7747ff]; 
-  }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #7747ff;
+}

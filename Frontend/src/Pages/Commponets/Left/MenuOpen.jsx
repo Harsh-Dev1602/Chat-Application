@@ -35,7 +35,7 @@ function MenuOpen() {
         </div>
 
         <div className=" flex flex-col gap-2 ">
-          <span className=' text-2xl 2xl:text-4xl'>{authUser.user.fullname}</span>
+          <span className='text-2xl 2xl:text-4xl'>{authUser.user.fullname}</span>
           <span className=' text-xl text-[#7747ff] font-semibold'>{authUser.user.email}</span>
         </div>
 

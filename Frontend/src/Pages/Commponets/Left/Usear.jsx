@@ -14,7 +14,7 @@ function Usear({ user }) {
   return (
     <>
     <div className={`w-[95%] mx-auto transition-all h-20 flex gap-4 items-center hover:bg-[#cccccc1b] duration-300 cursor-pointer
-         px-2  border-black  ${isSelected ? "bg-[#cccccc4f]" : ""}`}   onClick={() => setSelectedConversation(user)} >
+         px-2  border-black  ${isSelected ? "bg-[#cccccc4f] hover:bg-[#cccccc4f]" : ""}`}   onClick={() => setSelectedConversation(user)} >
         <div className=' rounded-full p-4 bg-[#cccc] '>
           <FaUserAlt className=' text-[#848484] text-2xl md:text-3xl ' />
         </div>

@@ -8,12 +8,12 @@ import { useAuth } from "../../../Context/AuthProvider";
 import useGetSocketMessage from '../../../Context/useGetSocketMessage.js';
 import useConversation from '../../../zustand/useConversation.js';
 
-function Right({user}) {
+function Right({ user }) {
   const [authUser] = useAuth();
   const { loading, messages } = useGetMessage();
   useGetSocketMessage(); // listing incoming messages
-  const { selectedConversation} = useConversation();
- 
+  const { selectedConversation } = useConversation();
+
   const lastMsgRef = useRef();
   useEffect(() => {
     setTimeout(() => {
@@ -26,7 +26,7 @@ function Right({user}) {
   }, [messages]);
   return (
     <>
-      <div  className={` w-full lg:block lg:w-[70%] h-screen bg-white${selectedConversation?"block":" hidden "} `}>
+      <div className={` w-full lg:block lg:w-[70%] h-screen bg-white${selectedConversation ? "block" : " hidden "} `}>
         <NameTab />
         <div style={{ minHeight: "calc( 100vh - 180px )" }} >
           <div style={{ maxHeight: "calc( 100vh - 180px )" }} className=" overflow-y-auto py-1 custom-scrollbar">
@@ -45,8 +45,8 @@ function Right({user}) {
             {!loading && messages.length === 0 && (
               <div style={{ maxHeight: "calc( 100vh - 190px )" }}>
                 <div style={{ minHeight: "calc( 100vh - 190px )" }} className="w-full flex justify-center items-center  text-xl text-[#7747ff]">
-                Say! Hi to start the conversation
-              </div>
+                  Say! Hi to start the conversation
+                </div>
               </div>
             )}
           </div>

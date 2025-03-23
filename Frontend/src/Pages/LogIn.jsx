@@ -40,7 +40,7 @@ function LogIn() {
     return (
         <>
             <div style={{ minHeight: "100vh" }} className="w-full h-screen  bg-white custom-scrollbar flex justify-center items-center">
-                <div style={{ maxHeight: "100vh" }} className="w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  text-black shadow shadow-[#cccc] bg-white border border-black animate__animated animate__flipInY">
+                <div style={{ maxHeight: "100vh" }} className="w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  text-black shadow-md shadow-[#00000046] bg-white  animate__animated animate__flipInY">
                     
                     <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center">Welcome back to  <span className="text-[#7747ff]">Chat App</span></div>
                     <div className="text-sm font-normal mb-4 text-center text-[#1e0e4b]">Log in to your account</div>
