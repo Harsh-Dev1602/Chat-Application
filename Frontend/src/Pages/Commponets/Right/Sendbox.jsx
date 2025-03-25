@@ -7,7 +7,7 @@ function Sendbox() {
   const { loading, sendMessages } = useSendMessage();
 
   const handleSubmit = async (e) => {
-    console.log(e);
+    // console.log(e);
     e.preventDefault();
     await sendMessages(message);
     setMessage("");
