@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form"
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useAuth } from "../Context/AuthProvider.jsx";
+import Logo1 from "../../public/Logo1.png" 
 
 function SignUp() {
 
@@ -45,8 +46,10 @@ function SignUp() {
     return (
         <>
             <div style={{ minHeight: "100vh" }} className="w-full h-screen  bg-white  flex custom-scrollbar justify-center items-center">
-                <div style={{ maxHeight: "100vh" }} className=" w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  shadow shadow-[#00000046] text-black bg-white animate__animated animate__flipInY">
-                    <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center">Welcome to  <span className="text-[#7747ff]">Chat App</span></div>
+                <div style={{ maxHeight: "100vh" }} className=" w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  shadow shadow-violet-600 text-black bg-white animate__animated animate__flipInY">
+                    
+                
+                    <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center"><span className="text-[#7747ff]"><div className="w-15 h-15 mx-auto text-center"><img src={Logo1} /></div> Instant Connect Messenger</span></div>
                     <div className="text-sm font-normal mb-4 text-center text-[#1e0e4b]">Create your New account</div>
                     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-3 ">
                         <div className="block relative">

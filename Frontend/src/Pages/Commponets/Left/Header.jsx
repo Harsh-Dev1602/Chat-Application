@@ -6,7 +6,7 @@ import MenuOpen from './MenuOpen';
 import useGetAllUsers from "../../../Context/useGetAllUsers.jsx";
 import useConversation from "../../../zustand/useConversation.js";
 import toast from "react-hot-toast";
-
+import Logo1 from "../../../../public/Logo1.png"
 function Header() {
     const [menuOpen, setmenuOpen] = useState(false);
     const [search, setSearch] = useState("");
@@ -31,7 +31,7 @@ function Header() {
         <>
             <header className=' sticky bg-white top-0 left-0 w-[95%]  mx-auto py-4'>
                 <div className="flex justify-between  items-center">
-                    <h1 className="text-[#7747ff] text-3xl font-semibold ">Chat App</h1>
+                    <h1 className="text-[#7747ff] flex justify-center items-center  text-3xl font-semibold "> <img className=' w-10 h-10' src={Logo1} /> I.C.M.</h1>
                     <div onClick={() => setmenuOpen(!menuOpen)} className=' p-1 rounded-full text-4xl cursor-pointer'>
                         {menuOpen ? <MdOutlineClear /> : <LuMenu />}
                     </div>
