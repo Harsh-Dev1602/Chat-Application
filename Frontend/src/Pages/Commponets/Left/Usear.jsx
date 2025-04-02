@@ -15,13 +15,13 @@ function Usear({ user }) {
     <>
     <div className={`w-[95%] mx-auto transition-all h-20 flex gap-4 items-center hover:bg-[#cccccc1b] duration-300 cursor-pointer
          px-2  border-black  ${isSelected ? "bg-[#cccccc4f] hover:bg-[#cccccc4f]" : ""}`}   onClick={() => setSelectedConversation(user)} >
-        <div className=' rounded-full p-4 bg-[#cccc] '>
-          <FaUserAlt className=' text-[#848484] text-2xl md:text-3xl ' />
+        <div className=' rounded-3xl p-3 bg-[#cccc] '>
+          <FaUserAlt className=' text-[#848484] text-2xl ' />
         </div>
         <div className="w-full flex flex-col justify-center ">
           <span className=' text-2xl '>{user.fullname}
           </span>
-          <span className=' text-[#7747ff] font-semibold flex justify-between items-center'>
+          <span className=' text-[#7747ff] text-sm font-semibold flex justify-between items-center'>
            {
               isOnline ? "Online*":(<div className=' text-[#00000095]'>Offline</div>)
            }
