@@ -3,7 +3,7 @@ import NameTab from './NameTab'
 import Sendbox from './Sendbox'
 import Masseges from './Masseges'
 import useGetMessage from "../../../Context/useGetMessage.js";
-import Loading from "../../Loading.jsx";
+import Loading from "../../Loading/Loading1.jsx";
 import { useAuth } from "../../../Context/AuthProvider";
 import useGetSocketMessage from '../../../Context/useGetSocketMessage.js';
 import useConversation from '../../../zustand/useConversation.js';
