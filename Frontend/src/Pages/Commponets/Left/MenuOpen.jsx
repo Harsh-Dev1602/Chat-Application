@@ -28,7 +28,6 @@ function MenuOpen() {
       <div className="animate__animated animate__fadeInLeft w-[80%] mx-auto z-50 lg:mx-0 h-screen
                  lg:w-[25%] text-center fixed top-0  left-0 border-r-2 border-[#cccc] bg-white rounded-br-3xl rounded-tr-3xl  py-[50px] flex justify-center items-center flex-col gap-5">
 
-        {/* <h1 className="text-[#7747ff] text-3xl fixed top-5 left-5 font-semibold ">Chat App</h1> */}
 
         <div className=' rounded-full p-4 bg-[#cccc]'>
           <FaUserAlt className=' text-[#848484] text-2xl md:text-4xl ' />
@@ -39,7 +38,7 @@ function MenuOpen() {
           <span className=' text-xl text-[#7747ff] font-semibold'>{authUser.user.email}</span>
         </div>
 
-        <button className=' rounded-3xl bg-red-500 py-2 px-8 text-white text-2xl font-bold shadow shadow-[#ccc] cursor-pointer hover:bg-red-400 transition-all duration-1000'
+        <button className=' rounded-sm bg-red-600 py-2 px-4 text-white text-xl shadow shadow-[#ccc] cursor-pointer hover:bg-red-400 transition-all duration-1000'
           onClick={handleLogout}
         >Log Out</button>
       </div>

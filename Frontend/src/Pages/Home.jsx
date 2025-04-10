@@ -24,9 +24,9 @@ const NoChat = () => {
   const [authUser] = useAuth();
   return (
     <div className=" hidden lg:flex lg:w-[70%]   h-screen text-xl flex-col justify-center items-center">
-      <div className=" w-40"><img src={Logo1}/></div>
-      <div>Welcome back to  Instant Connect Messenger</div>
-      <div>Plese start the conversation <span className=' text-2xl text-[#7747ff] font-semibold'>{authUser.user.fullname}</span></div>
+      <div className=" w-40  "><img src={Logo1}/></div>
+      <div>Welcome back, <span className=' text-2xl text-[#7747ff] font-semibold'>{authUser.user.fullname} !</span></div>
+      <span>We missed you. Ready to continue where you left off?</span>
     </div>
   );
 }

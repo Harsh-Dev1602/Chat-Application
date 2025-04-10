@@ -24,6 +24,7 @@ function App() {
   }, []);
   return (
     <>
+    <div className=" cursor-default select-none">
       {loading ? (
         <Loading />
       ) : (<>
@@ -37,6 +38,7 @@ function App() {
       </>
       )
       }
+      </div>
     </>
   )
 }

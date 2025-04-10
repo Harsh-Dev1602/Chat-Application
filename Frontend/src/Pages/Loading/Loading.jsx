@@ -6,7 +6,7 @@ function Loading() {
       <div style={{ minHeight: "100vh" }}
         className="w-full  bg-white flex justify-center items-center">
         <div style={{ maxHeight: "100vh" }} >
-          <div class="loader"></div>
+          <div className="loader"></div>
         </div>
       </div>
     </>

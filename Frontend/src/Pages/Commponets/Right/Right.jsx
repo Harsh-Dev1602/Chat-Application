@@ -44,8 +44,8 @@ function Right({ user }) {
 
             {!loading && messages.length === 0 && (
               <div style={{ maxHeight: "calc( 100vh - 190px )" }}>
-                <div style={{ minHeight: "calc( 100vh - 190px )" }} className="w-full flex justify-center items-center  text-xl text-[#7747ff]">
-                  Say! Hi to start the conversation
+                <div style={{ minHeight: "calc( 100vh - 190px )" }} className="w-full flex justify-center items-center  text-xl text-[#7747ff] text-center px-10">
+                "Hi there! Hope you're having a great day. I'm excited to chat with you!"
                 </div>
               </div>
             )}

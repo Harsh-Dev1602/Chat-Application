@@ -21,7 +21,7 @@ function Usear({ user }) {
         <div className="w-full flex flex-col justify-center ">
           <span className=' text-2xl '>{user.fullname}
           </span>
-          <span className=' text-[#7747ff] text-sm font-semibold flex justify-between items-center'>
+          <span className=' text-[#7747ff] text-sm font-[600] flex justify-between items-center'>
            {
               isOnline ? "Online*":(<div className=' text-[#00000095]'>Offline</div>)
            }

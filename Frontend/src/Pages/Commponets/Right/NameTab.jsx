@@ -18,7 +18,7 @@ function NameTab() {
                 <div onClick={() => window.location.reload()} className="text-3xl p-1 rounded-full text-[#00000095] cursor-pointer">
                     <FaChevronLeft/>
                 </div>
-                <div className=' rounded-3xl p-3 bg-[#cccc]'>
+                <div className=' rounded-full p-3 bg-[#cccccca2]'>
                     <FaUserAlt className=' text-[#848484] text-2xl ' />
                 </div>
                 <div className=" flex flex-col">
