@@ -11,7 +11,7 @@ function Left() {
 
    return (
       <>
-         <div style={{ maxHeight: "100vh" }} className={` w-full lg:w-[30%] h-screen border-[#cccc] lg:block lg:border-r-2 overflow-y-auto custom-scrollbar ${selectedConversation ?" hidden ":"block"}`} >
+         <div style={{ maxHeight: "100vh" }} className={` w-full lg:w-[30%] h-screen border-[#cccc] lg:block lg:border-r-2  ${selectedConversation ?"hidden":"block"}`} >
             <Header />
             <div style={{ minHeight: "calc( 100vh - 144px )" }} >
                <div style={{ maxHeight: "calc( 100vh - 144px )" }} className=" overflow-y-auto custom-scrollbar pb-5 ">

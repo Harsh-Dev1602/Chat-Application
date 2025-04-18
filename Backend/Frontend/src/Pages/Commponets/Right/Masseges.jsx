@@ -15,7 +15,7 @@ function Masseges({ message }) {
   return (
     <>
       <div className={`chat overflow-x-hidden p-4 ${chatName}`}>
-        <div className={`chat-bubble   text-white  text-2xl text-justify ${chatColor} `}>
+        <div className={`chat-bubble   text-white  text-xl text-justify ${chatColor} `}>
         {message.message}
         </div>
         <div className=" chat-footer text-xl">{formattedTime}</div>

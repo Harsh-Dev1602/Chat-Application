@@ -44,10 +44,10 @@ function Header() {
                         <FaSearch className='text-3xl text-black cursor-pointer' />
                     </div>
                 </form>
+            </header>
                 {menuOpen && (
                     <MenuOpen />
                 )}
-            </header>
         </>
     )
 }
