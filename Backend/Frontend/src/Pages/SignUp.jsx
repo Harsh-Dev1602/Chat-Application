@@ -33,8 +33,8 @@ function SignUp() {
             if (response.data) {
               toast.success("Sign up successfully");
             }
-            localStorage.setItem("Chat_App",JSON.stringify(response.data));
-            setAuthUser(response.data);
+            localStorage.setItem("ChatApp",JSON.stringify(response.data));
+            setAuthUser(response.data); 
           })
           .catch((error) => {
             if (error.response) {
