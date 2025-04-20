@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-application-lime-six.vercel.app/",
+    origin: "https://chat-application-a5mv.onrender.com",
     methods: ["GET", "POST"],
   },
 });
