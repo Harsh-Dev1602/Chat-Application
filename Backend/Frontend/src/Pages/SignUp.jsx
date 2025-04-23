@@ -45,7 +45,7 @@ function SignUp() {
 
     return (
         <>
-            <div style={{ minHeight: "100vh" }} className="w-full h-screen  bg-white  flex custom-scrollbar justify-center items-center">
+            <div style={{ minHeight: "100vh" }} className="w-full h-screen BgImg1  bg-white  flex custom-scrollbar justify-center items-center">
                 <div style={{ maxHeight: "100vh" }} className=" w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  shadow shadow-violet-600 text-black bg-white animate__animated animate__flipInY">
                     
                 

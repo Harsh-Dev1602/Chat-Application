@@ -15,7 +15,7 @@ function NameTab() {
     };
     return (
         <>
-            <div className="w-full h-[90px]  border-[#cccc] border-b-2  sticky top-0 left-0 bg-white flex items-center p-2 gap-4">
+            <div className="w-full h-[90px]  border-[#cccc] border-b-2  sticky top-0 left-0  flex items-center p-2 gap-4">
                 <div onClick={() => window.location.reload()} className="text-3xl p-1 rounded-full text-[#00000095] cursor-pointer">
                 <MdKeyboardBackspace />
                 </div>

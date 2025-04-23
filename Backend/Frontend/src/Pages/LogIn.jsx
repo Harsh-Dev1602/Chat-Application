@@ -38,9 +38,9 @@ function LogIn() {
       });
   };
 
-  return (
+  return ( 
     <>
-      <div style={{ minHeight: "100vh" }} className="w-full h-screen  bg-white custom-scrollbar flex justify-center items-center">
+      <div style={{ minHeight: "100vh" }} className="w-full h-screen  bg-white BgImg1 custom-scrollbar flex justify-center items-center">
         <div style={{ maxHeight: "100vh" }} className="w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  text-black shadow-md shadow-violet-600 bg-white  animate__animated animate__flipInY">
           <div className="w-15 h-15 mx-auto text-center"><img src={Logo1} /></div>
           <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center">Welcome back to  <span className="text-[#7747ff]">Instant Connect Messenger</span></div>

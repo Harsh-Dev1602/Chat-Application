@@ -15,7 +15,7 @@ function Sendbox() {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div className=" sticky bottom-0 w-full h-[60px] flex justify-center items-center p-5  mx-auto bg-white gap-4">
+        <div className=" sticky bottom-0 w-full h-[60px] flex justify-center items-center p-5  mx-auto  gap-4">
           <input value={message} onChange={(e) => setMessage(e.target.value)} className='w-full h-[50px] rounded-full outline-none bg-white text-black px-2 border border-black' placeholder=' Write a messege..' type="text" />
           <button className='hover:bg-[#6a72822b] p-2 rounded-full text-4xl cursor-pointer text-[#7747ff] font-bold'>
             <VscSend />

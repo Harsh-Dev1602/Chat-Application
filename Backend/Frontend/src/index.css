@@ -17,3 +17,10 @@
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background-color: #7747ff;
 }
+
+.BgImg1{
+   background-image: url("../public/BgImg1.jpeg");
+   background-position: center;
+   background-size: cover;
+   object-fit: cover;
+}

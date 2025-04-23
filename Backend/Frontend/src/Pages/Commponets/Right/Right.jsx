@@ -26,10 +26,10 @@ function Right({ user }) {
   }, [messages]);
   return (
     <>
-      <div className={` w-full lg:block lg:w-[70%] h-screen bg-white${selectedConversation ? "block" : " hidden "} `}>
+      <div className={` bg-white w-full lg:block lg:w-[70%] h-screen bg-white${selectedConversation ? "block" : " hidden "} `}>
         <NameTab />
         <div style={{ minHeight: "calc( 100vh - 150px )" }} >
-          <div style={{ maxHeight: "calc( 100vh - 150px )" }} className=" overflow-y-auto py-1 custom-scrollbar">
+          <div style={{ maxHeight: "calc( 100vh - 150px )" }} className="  overflow-y-auto py-1 custom-scrollbar">
             {/* <Masseges /> */}
             {loading ? (
               <Loading />

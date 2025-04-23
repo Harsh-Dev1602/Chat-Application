@@ -29,7 +29,7 @@ function Header() {
     };
     return (
         <>
-            <header className=' sticky bg-white top-0 left-0 w-[95%]  mx-auto py-4'>
+            <header className=' sticky top-0 left-0 w-[95%]  mx-auto py-4'>
                 <div className="flex justify-between  items-center">
                     <h1 className="text-[#7747ff] flex justify-center items-center  text-3xl font-semibold "> <img className=' w-10 h-10' src={Logo1} /> I.C.M.</h1>
                     <div onClick={() => setmenuOpen(!menuOpen)} className=' hover:bg-[#cccccc65] p-1 rounded-xl text-4xl cursor-pointer'>

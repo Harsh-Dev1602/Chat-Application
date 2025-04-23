@@ -25,7 +25,7 @@ function MenuOpen() {
   };
   return (
     <>
-      <div style={{ minHeight: "100vh" }} className="w-full  bg-white custom-scrollbar ">
+      <div style={{ minHeight: "100vh" }} >
         <div style={{ maxHeight: "100vh" }} className="animate__animated animate__fadeInLeft w-full  z-50 lg:mx-0 h-screen  lg:w-[29.9%] text-center fixed top-[65px] py-[100px]  left-0  bg-[#f9f7ff] rounded-t-4xl flex justify-center items-center flex-col gap-5 overflow-y-auto">
 
 
