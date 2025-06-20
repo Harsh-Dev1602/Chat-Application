@@ -7,7 +7,7 @@ import { MdKeyboardBackspace } from "react-icons/md";
 
 function NameTab() {
 
-    const { selectedConversation } = useConversation();
+    const { selectedConversation, setSelectedConversation } = useConversation();
 
     const { onlineUsers } = useSocketContext();
     const getOnlineUsersStatus = (userId) => {
@@ -16,8 +16,10 @@ function NameTab() {
     return (
         <>
             <div className="w-full h-[90px]  border-[#cccc] border-b-2  sticky top-0 left-0  flex items-center p-2 gap-4">
-                <div onClick={() => window.location.reload()} className="text-3xl p-1 rounded-full text-[#00000095] cursor-pointer">
-                <MdKeyboardBackspace />
+                <div onClick={() => {
+                    setSelectedConversation(null);
+                }} className="text-3xl p-1 rounded-full text-[#00000095] cursor-pointer">
+                    <MdKeyboardBackspace />
                 </div>
                 <div className=' rounded-full p-3 bg-[#cccccca2]'>
                     <FaUserAlt className=' text-[#848484] text-2xl ' />

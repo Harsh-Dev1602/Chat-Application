@@ -49,7 +49,9 @@ function SignUp() {
                 <div style={{ maxHeight: "100vh" }} className=" w-[95%] sm:w-[400px] overflow-y-auto custom-scrollbar relative flex flex-col p-4 rounded-md rounded-bl-3xl rounded-tr-3xl  shadow shadow-violet-600 text-black bg-white animate__animated animate__flipInY">
                     
                 
-                    <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center"><span className="text-[#7747ff]"><div className="w-15 h-15 mx-auto text-center"><img src={Logo1} /></div> Instant Connect Messenger</span></div>
+                    <div className="text-2xl font-bold mb-2 text-[#1e0e4b] text-center">
+                        <div className="text-black">
+                            <div className="w-15 h-15 mx-auto text-center "><img src={Logo1} /></div> instant<span className='text-[#7747ff]'>Chat</span></div></div>
                     <div className="text-sm font-normal mb-4 text-center text-[#1e0e4b]">Create your New account</div>
                     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-3 ">
                         <div className="block relative">

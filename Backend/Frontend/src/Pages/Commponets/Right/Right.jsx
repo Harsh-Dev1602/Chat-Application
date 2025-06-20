@@ -26,10 +26,10 @@ function Right({ user }) {
   }, [messages]);
   return (
     <>
-      <div className={` bg-white w-full lg:block lg:w-[70%] h-screen bg-white${selectedConversation ? "block" : " hidden "} `}>
+      <div className={`bg-indigo-100 w-full lg:block lg:w-[70%] h-screen ${selectedConversation ? "block" : " hidden "} `}>
         <NameTab />
         <div style={{ minHeight: "calc( 100vh - 150px )" }} >
-          <div style={{ maxHeight: "calc( 100vh - 150px )" }} className="  overflow-y-auto py-1 custom-scrollbar">
+          <div style={{ maxHeight: "calc( 100vh - 150px )" }} className=" min-[1700px]:w-[70%] min-[3500px]:w-[80%]  overflow-y-auto py-1 mx-auto">
             {/* <Masseges /> */}
             {loading ? (
               <Loading />
@@ -44,7 +44,7 @@ function Right({ user }) {
 
             {!loading && messages.length === 0 && (
               <div style={{ maxHeight: "calc( 100vh - 190px )" }}>
-                <div style={{ minHeight: "calc( 100vh - 190px )" }} className="w-full flex justify-center items-center  text-xl text-[#7747ff] text-center px-10">
+                <div style={{ minHeight: "calc( 100vh - 190px )" }} className=" w-full flex justify-center items-center  text-xl text-[#7747ff] text-center px-10">
                 "Hi there! Hope you're having a great day. I'm excited to chat with you!"
                 </div>
               </div>
@@ -53,6 +53,7 @@ function Right({ user }) {
         </div>
         <Sendbox />
       </div>
+      
     </>
   )
 }

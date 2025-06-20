@@ -10,12 +10,12 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: transparent;
   border-radius: 32px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #7747ff;
+  background-color: transparent;
 }
 
 .BgImg1{

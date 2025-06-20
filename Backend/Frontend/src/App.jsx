@@ -24,7 +24,7 @@ function App() {
   }, []);
   return (
     <>
-    <div className=" cursor-default select-none">
+    <div className=" cursor-default select-none ">
       {loading ? (
         <Loading />
       ) : (<>
