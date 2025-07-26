@@ -26,10 +26,10 @@ function Right({ user }) {
   }, [messages]);
   return (
     <>
-      <div className={`bg-indigo-100 w-full lg:block lg:w-[70%] h-screen ${selectedConversation ? "block" : " hidden "} `}>
+      <div className={` bg-white w-full lg:block lg:w-[70%] h-screen ${selectedConversation ? "block" : " hidden "} `}>
         <NameTab />
         <div style={{ minHeight: "calc( 100vh - 150px )" }} >
-          <div style={{ maxHeight: "calc( 100vh - 150px )" }} className=" min-[1700px]:w-[70%] min-[3500px]:w-[80%]  overflow-y-auto py-1 mx-auto">
+          <div style={{ maxHeight: "calc( 100vh - 150px )" }} className=" min-[1700px]:w-[70%] min-[3500px]:w-[80%] overflow-y-auto py-1 mx-auto">
             {/* <Masseges /> */}
             {loading ? (
               <Loading />

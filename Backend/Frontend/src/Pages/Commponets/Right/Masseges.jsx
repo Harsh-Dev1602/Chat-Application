@@ -5,7 +5,8 @@ function Masseges({ message }) {
   const itsMe = message.senderId === authUser.user.id;
 
   const chatName = itsMe ? " chat-end" : " chat-start";
-  const chatColor = itsMe ? "bg-[#7747ff]" : "bg-[#00000095]";
+  const chatBgColor = itsMe ? "bg-[#d8caff]" : "bg-[#efefeffe]";
+
 
   const createdAt = new Date(message.createdAt);
   const formattedTime = createdAt.toLocaleTimeString([], {
@@ -15,10 +16,12 @@ function Masseges({ message }) {
   return (
     <>
       <div className={`chat overflow-x-hidden p-4 ${chatName}`}>
-        <div className={`chat-bubble   text-white  text-xl text-justify ${chatColor} `}>
-        {message.message}
+        <div className={`chat-bubble text-[#000] text-xl text-justify ${chatBgColor} `}>
+          {/* <div className={` ${chatTextColor}`}> */}
+            {message.message}
+          {/* </div> */}   
         </div>
-        <div className=" chat-footer text-xl">{formattedTime}</div>
+        <div className=" chat-footer sticky text-xl font-semibold">{formattedTime}</div>
       </div>
    
     </>
